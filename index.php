@@ -36,7 +36,7 @@
         <ul>
           <a href="#home"><li class="options">Home</li></a>
           <a href="#tijden"><li class="options">Openingstijden</li></a>
-          <a href="#eten bestellen"><li class="options">eten bestellen</li></a>
+          <a href="#eten bestellen"><li class="options">Eten bestellen</li></a>
           <a href="#extra"><li class="options">locatie</li></a>
           <a href="login.php"><li class="options">login</li></a>
         </ul>
