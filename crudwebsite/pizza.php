@@ -47,15 +47,25 @@
     <main>
     <?php
 
-$select = mysqli_query($conn, "SELECT * FROM products");
+if (isset($_GET['search'])) {
+  $creditsnaarstijn = '%'.$_GET['search'].'%';
+  $select = mysqli_query($conn, "SELECT * FROM products WHERE name LIKE '".$creditsnaarstijn."'");
+
+} else {
+  $select = mysqli_query($conn, "SELECT * FROM products");
+}
 
 ?>
 <div class="product-display">
+  
    <table class="product-display-table">
-    
+   <form action="#" method='get'>
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
       <?php while($row = mysqli_fetch_assoc($select)){ ?>
       <tr>
-         <td><img src="crud/uploaded_img/<?php echo $row['image']; ?>" height="100" alt=""></td>
+         <td><img class="products" src="crud/uploaded_img/<?php echo $row['image']; ?>" height="100" alt=""></td>
          <td><?php echo $row['name']; ?></td>
          <td>$<?php echo $row['price']; ?>/-</td>
       </tr>
