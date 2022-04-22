@@ -1,0 +1,226 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0px 40px;
+    margin: auto;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .container {
+      padding: 0px 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .container {
+      padding: 0px 20px;
+    }
+  }
+  
+  header {
+    z-index: 11;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding: 0px 40px;
+    background-color: rgba(221, 2, 2, 0.829);
+  }
+  
+  header .logo {
+    width: max-content;
+  }
+  
+  header .logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+    width: max-content;
+  }
+  
+  header nav ul {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+  }
+  
+  header nav ul a {
+    font-size: 14px;
+    color: white;
+  }
+  
+  header nav ul a:hover {
+    color: black;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    padding: 0px 40px;
+    background-color: rgba(221, 2, 2, 0.829);
+  }
+  
+  footer h5 {
+    font-size: 10px;
+    font-weight: normal;
+    color: white;
+  }
+  
+  main {
+    display: flex;
+    padding-top: 60px;
+    background: linear-gradient(
+      323deg,
+      rgb(206, 206, 206) 9%,
+      rgb(255, 255, 255) 100%
+    );
+  }
+  
+  
+  button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: auto;
+    border-radius: 12px;
+    background-color: #d40000;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 18px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  }
+  
+  button:after {
+    content: "»";
+    position: absolute;
+    opacity: 0;
+    top: 7.5px;
+    right: -20px;
+  }
+  
+  button:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+    background-color: rgb(39, 87, 0);
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  
+  
+  
+  .etenbestellen {
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  
+  
+  .text1 {
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  
+  .options{
+    color: black;
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  
+  .box{
+    display: flex;
+    width: 2000px;
+    height: 653px;
+    flex-wrap: wrap;
+  }
+  
+  .box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    }
+
+  .box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+  }
+
+  .box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    
+  }
+
+  .box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+  }
+  
+  .smallbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(128, 128, 128, 0.452);
+    border-radius: 25px;
+  }
+ 
+  
