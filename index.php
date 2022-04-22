@@ -65,7 +65,7 @@
 
         <table>
           <tr>
-            <th>dag</th>
+            <th>Dag</th>
             <th>restaurant</th>
             <th>bezorging</th>
           </tr>
