@@ -129,7 +129,7 @@
         </div>
         <hr class="hr3" />
         <div id="contact" class="box5">
-          <h1 id="extra" class="text1">locatie</h1>
+          <h1 id="extra" class="text1">onze locatie</h1>
           <div class="kaartframe">
           <iframe class="kaart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2462.836312692054!2d5.821551224892768!3d51.882200406788265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7a9fb9930d41f%3A0xd6f50937184ef1d3!2sPizzeria%20Bardolino!5e0!3m2!1snl!2snl!4v1647425394855!5m2!1snl!2snl" width="613" height="176" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
