@@ -66,8 +66,8 @@
         <table>
           <tr>
             <th>Dag</th>
-            <th>restaurant</th>
-            <th>bezorging</th>
+            <th>Restaurant</th>
+            <th>Bezorging</th>
           </tr>
           <tr>
             <td>Maandag</td>
